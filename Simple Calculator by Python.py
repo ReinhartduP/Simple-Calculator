@@ -187,16 +187,16 @@ Numberentry2 = Entry(root);
 Numberentry1.place(relx=0.5, rely=0.3, anchor='center')
 Numberentry2.place(relx=0.5, rely=0.4, anchor='center')
 
-plusbutton = Button(root, text="+", width = 5, command = actionPlus);
+plusbutton = Button(root, text="+", width = 5, command = actionPlus, bg = 'green');
 plusbutton.place(relx=0.1, rely=0.7)
 
-minusbutton = Button(root, text="-", width = 5, command = actionMinus);
+minusbutton = Button(root, text="-", width = 5, command = actionMinus, bg = 'green');
 minusbutton.place(relx=0.3, rely=0.7)
 
-mulbutton = Button(root, text="*", width = 5, command = actionMul);
+mulbutton = Button(root, text="*", width = 5, command = actionMul, bg = 'green');
 mulbutton.place(relx=0.5, rely=0.7)
 
-divbutton = Button(root, text="/", width = 5, command = actionDiv);
+divbutton = Button(root, text="/", width = 5, command = actionDiv, bg = 'green');
 divbutton.place(relx=0.7, rely=0.7)
 
 authorbutton = Button(root, text='Author', width=6, command = actionauthor);
